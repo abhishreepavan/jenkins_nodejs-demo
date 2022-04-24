@@ -1,0 +1,24 @@
+{
+  "name": "node-jenkins-app-example",
+  "version": "1.0.0",
+  "description": "simple Hello World demo app",
+  "main": "app.js",
+  "scripts": {
+    "test": "jasmine-node spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhishreepavan/jenkins_nodejs-demo.git"
+  },
+  "author": "Abhishree P",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhishreepavan/jenkins_nodejs-demo/issues"
+  },
+  "homepage": "https://github.com/abhishreepavan/jenkins_nodejs-demo#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "jasmine-node": "^3.0.0",
+    "request": "^2.88.2"
+  }
+}

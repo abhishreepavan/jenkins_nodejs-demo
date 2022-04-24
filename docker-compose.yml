@@ -1,0 +1,13 @@
+version: "2"
+services:
+ jenkins:
+    restart: always
+    image: jenkins/jenkins
+    container_name: abhishree
+    ports:
+    - "8080:8080"
+    volumes:
+    - ./docker/jenkins:/var/jenkins_home
+    expose:
+    - "50000"
+    - "9090"
