@@ -1,6 +1,6 @@
-FROM mhart/alpine-node
-
-EXPOSE 3000
+FROM node
 WORKDIR /app
-COPY . /app
-CMD ["node", "app.js"]
+ADD . /app
+RUN npm install
+EXPOSE 3000
+CMD npm start
